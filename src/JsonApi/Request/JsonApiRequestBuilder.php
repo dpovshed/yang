@@ -45,7 +45,7 @@ class JsonApiRequestBuilder
     public function initialize(): void
     {
         $this->method = "GET";
-        $this->protocolVersion = "";
+        $this->protocolVersion = "1.1";
         $this->scheme = "http";
         $this->host = "";
         $this->port = null;
